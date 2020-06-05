@@ -1,0 +1,12 @@
+
+
+<launch>
+
+  <node name="sinebot_bringup"  pkg="sinebot_bringup" type="sinebot_base_node" respawn="true" output="screen">
+  </node>
+
+</launch>
+
+
+
+
