@@ -1,0 +1,36 @@
+<?xml version="1.0.0"?>
+    <package>
+    <name>sinebot_bringup</name>
+    <version>1.4.1</version>
+    <description>ROS compatible ground robots</description>
+    <maintainer email="wufangzhao@hotmail.com">t</maintainer>
+
+    <license>BSD</license>
+
+    <url type="website">http://www.ezcontrol.cn</url>
+
+    <author email="wufangzhao@hotmail.com">wufangzhao</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>tf2</build_depend>
+		<build_depend>tf2_ros</build_depend>
+    <build_depend>nav_msgs</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>std_msgs</build_depend>
+    
+    <run_depend>roscpp</run_depend>
+    <run_depend>rospy</run_depend>
+    <run_depend>tf2</run_depend>
+		<run_depend>tf2_ros</run_depend>
+    <run_depend>nav_msgs</run_depend>
+    <run_depend>sensor_msgs</run_depend>
+    <run_depend>geometry_msgs</run_depend>
+    <run_depend>std_msgs</run_depend>
+
+
+    <export>
+    </export>
+</package>

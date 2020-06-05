@@ -1,0 +1,13 @@
+<launch>
+
+    <!-- gps reading Node-->
+ 
+ <node pkg="chuan_bringup" type="odom_fake" name="odmom_fake" output="screen"/> 
+
+
+<node pkg="chuan_bringup" type="tf_changemap11" name="odom_basefootprint" />
+
+<node pkg="chuan_bringup" type="tf_changemaptd11" name="odom_map" />
+  
+  
+</launch>
